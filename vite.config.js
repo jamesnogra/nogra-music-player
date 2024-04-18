@@ -9,7 +9,8 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.js',
                 'resources/js/song.js',
-                'resources/js/register.js'
+                'resources/js/register.js',
+                'resources/js/login.js'
             ],
             refresh: true,
         }),
