@@ -5,7 +5,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\SongController;
 
 Route::get('/', function () {
-    return view('music');
+    return view('register');
 });
 
 /** Users */
