@@ -106,6 +106,7 @@ export default {
             this.songIndex = 0
         },
         shuffleArray(array) {
+            this.songSeconds = 0
             let i = array.length
             while (i > 0) {
                 const ri = Math.floor(Math.random() * i)
